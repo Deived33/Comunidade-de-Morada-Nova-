@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade Morada Nova</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #00264d; /* Azul escuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00ccff; /* Azul claro neon */
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #005580; /* Azul escuro */
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .noticia, .educacao, .saude, .trabalho, .seguranca, .turismo {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #00264d; /* Azul escuro */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .titulo-secao {
+            color: #005580; /* Azul escuro */
+            font-size: 24px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #00ccff; /* Azul claro neon */
+            padding-bottom: 5px;
+        }
+
+        .botao {
+            background-color: #00ccff; /* Azul claro neon */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .botao:hover {
+            background-color: #005580; /* Azul escuro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Comunidade Morada Nova</h1>
+        <p>Bem-vindo ao portal da nossa comunidade!</p>
+    </header>
+
+    <nav>
+        <a href="#noticia">Notícias</a>
+        <a href="#educacao">Educação</a>
+        <a href="#saude">Saúde</a>
+        <a href="#trabalho">Trabalho</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#turismo">Turismo</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="noticia" class="noticia">
+        <h2 class="titulo-secao">Notícias</h2>
+        <p>Fique por dentro das últimas novidades da nossa comunidade.</p>
+        <button class="botao">Leia mais</button>
+    </section>
+
+    <section id="educacao" class="educacao">
+        <h2 class="titulo-secao">Educação</h2>
+        <p>Informações sobre escolas, cursos e eventos educacionais.</p>
+        <button class="botao">Saiba mais</button>
+    </section>
+
+    <section id="saude" class="saude">
+        <h2 class="titulo-secao">Saúde</h2>
+        <p>Dicas de saúde, informações sobre postos e hospitais.</p>
+        <button class="botao">Veja detalhes</button>
+    </section>
+
+    <section id="trabalho" class="trabalho">
+        <h2 class="titulo-secao">Trabalho</h2>
+        <p>Vagas de emprego e oportunidades de trabalho na comunidade.</p>
+        <button class="botao">Confira</button>
+    </section>
+
+    <section id="seguranca" class="seguranca">
+        <h2 class="titulo-secao">Segurança</h2>
+        <p>Notícias e dicas sobre segurança pública e comunitária.</p>
+        <button class="botao">Leia mais</button>
+    </section>
+
+    <section id="turismo" class="turismo">
+        <h2 class="titulo-secao">Turismo</h2>
+        <p>Explore os pontos turísticos e as belezas da nossa comunidade.</p>
+        <button class="botao">Descubra</button>
+    </section>
+
+    <section id="contato">
+        <h2 class="titulo-secao">Contato</h2>
+        <p>Entre em contato conosco para mais informações.</p>
+        <button class="botao">Fale Conosco</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Comunidade Morada Nova. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
